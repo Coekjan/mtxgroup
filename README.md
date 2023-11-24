@@ -1,5 +1,7 @@
 # MuTeX GROUP
 
+[![Crates.io version](https://img.shields.io/crates/v/mtxgroup.svg)](https://crates.io/crates/mtxgroup)
+
 ## Introduction
 
 **M**u**T**e**X** **GROUP** can be used to lock all mutexes at the same time.
