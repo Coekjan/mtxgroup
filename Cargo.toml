@@ -1,0 +1,19 @@
+[package]
+name = "mtxgroup"
+version = "0.1.1"
+edition = "2021"
+authors = [
+    "coekjan cn_yzr@qq.com"
+]
+license = "MIT"
+description = "mutex group locks all mutexes at the same time"
+repository = "https://github.com/Coekjan/mtxgroup"
+readme = "README.md"
+
+[features]
+default = ["std"]
+std = []
+spin = ["spin/mutex", "spin/spin_mutex"]
+
+[dependencies]
+spin = { version = "0.9.8", default-features = false }
